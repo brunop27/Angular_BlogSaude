@@ -1,11 +1,25 @@
-<app-main-section></app-main-section>
-<div class="container_articles">
-    <div class="articles_big-card">
-        <app-big-card></app-big-card>
-    </div>
-    <div class="articles_others-card">
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-    </div>
-</div>
+<header>
+    <app-menu-bar></app-menu-bar>
+</header>
+<main>
+    <section>
+        <app-main-section></app-main-section>
+    </section>
+    <section>
+        <div class="container_articles">
+            <div class="container_articles_title">
+                <h1>Publicações recentes</h1>
+            </div>
+            <div class="container_articles_content">
+                <div class="articles_big-card">
+                    <app-big-card></app-big-card>
+                </div>
+                <div class="articles_others-card">
+                    <app-small-card></app-small-card>
+                    <app-small-card></app-small-card>
+                    <app-small-card></app-small-card>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
