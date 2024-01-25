@@ -1,17 +1,17 @@
 .container_small_card{
-    width: 700px;
+    width: 500px;
     margin-bottom: 25px;
 }
 
 .container_small_card_content{
-    height: 150px;
+    height: 100px;
     display: flex;
     flex-direction: row;
 }
 
 .small_card_photo > img{
     margin-right: 20px;
-    min-width: 200px;
+    min-width: 100px;
 }
 
 .small_card_title {
@@ -21,5 +21,5 @@
 }
 
 .container_small_card_line{
-    margin-top: 10px;
+    margin-top: 5px;
 }

@@ -12,6 +12,6 @@ import { SmallCardComponent } from "../../components/small-card/small-card.compo
     styleUrl: './home.component.css',
     imports: [MenuBarComponent, MainSectionComponent, BigCardComponent, SmallCardComponent]
 })
-export class HomeComponent {
+export class HomeComponent{
 
 }
